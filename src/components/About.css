@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-w {
+    width:100%;
+    margin: 35px 0 0 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1),#4367ca, #051540);
+
+
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 80%;
+    margin: 60px auto;
+}
+.about img {
+    width: 250px;
+    height: 300px;
+    border-radius: 6px;
+}
+.about p {
+    width: 60%;
+    margin: 0 0 0 30px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        display: inline;
+        width: 90%;
+
+    }
+    .about p {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about img {
+        width: 50%;
+        height: 27vh;
+        margin: 0 auto;
+    }
+}

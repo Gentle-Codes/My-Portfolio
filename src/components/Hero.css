@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    left: 0;
+    width: 100%;
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1));
+}
+.hero-txt {
+    color: #fff;
+    width: 60%;
+    padding: -0;
+    margin: 0 0 40px 0;
+}
+.hero-txt h1 {
+    color:azure;
+    line-height: 1.2;
+    margin: 5px;
+}
+.hero-txt h2 {
+    color: crimson;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+    .hero-txt {
+        width: 90%;
+    }
+    .hero-txt h1 {
+        margin: 0 15px 20px 15px;
+    }
+    .hero-txt p {
+        margin: 0 12px 0 12px;
+    }
+}

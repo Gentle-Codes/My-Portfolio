@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    align-content: center;
+    padding: 60px 0 45px 0;
+    margin: 0 auto;
+    width: 90%;
+}
+.contact-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+@media(max-width: 768px) {
+    .contact-l {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

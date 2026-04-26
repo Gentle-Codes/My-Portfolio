@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css"
 
-export function Navbar() {
+export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => setMenuOpen(prev => !prev);

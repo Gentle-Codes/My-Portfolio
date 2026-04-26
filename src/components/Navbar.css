@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 .navbar {
-    top: 0;
+    padding-top: 10px;
     left: 0;
     width: 100%;
     position: fixed;
-    background-color: #051540;
+    z-index: 1000;
 }
 .navbar-container {
     margin: 0;

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.Tool-wrapper{
+    width:100%;
+    background: linear-gradient(45deg,   #4367ca, #051540);
+}*/
+.Tool {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    width: 75%;
+    grid-template-columns: repeat(2, 120px);
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+.Toolbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    background-color:#3c414e;
+    border: 1px solid lightcyan;
+    border-radius: 8px;
+    margin: 0 0 0 0;
+}
+.ToolB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    background-color: #3c414e;
+    border: 1px solid lightcyan;
+    border-radius: 8px;
+    margin: 0 0 0 0;
+}
+.Tool i {
+    font-size: 28px;
+}
