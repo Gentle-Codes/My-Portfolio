@@ -13,7 +13,7 @@ export default function Projects () {
                         src="https://i.postimg.cc/1RFMtk3Z/Screenshot-2026-04-18-162412.png"
                         alt="solar system project"
                     />
-                    <h4> <a href="https://group-6-capstone-project.vercel.app/">Planetary-Fact</a> </h4>
+                    <h4> <a href="https://group-6-capstone-project.vercel.app/" target="_blank" rel="noopener noreferrer">Planetary-Fact</a> </h4>
                     <p>Planetary Fact is a data-driven solar system project designed to present comparative details, highlighting the unique characteristics of each planet through visual comparisons.</p>
             </div>
 
@@ -22,7 +22,7 @@ export default function Projects () {
                         src="https://i.postimg.cc/SxQ3706r/Screenshot-2026-04-20-144638.png"
                         alt="img2"
                     />
-                    <h4> <a href="https://yemivalpresent.netlify.app/">MyValPresent</a> </h4>
+                    <h4> <a href="https://yemivalpresent.netlify.app/" target="_blank" rel="noopener noreferrer">MyValPresent</a> </h4>
                     <p>MyValPresent is a website created to celebrate friends and family during the seasons of love, such as Valentine's Day. It also provides an opportunity for me to share a brief introduction about myself.</p>
             </div>
 

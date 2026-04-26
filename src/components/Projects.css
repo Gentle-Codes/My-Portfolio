@@ -17,6 +17,12 @@
     margin:0 auto;
     padding: 0;
 }
+.project :link {
+    color: #fff;
+}
+.project :visited {
+    color:chartreuse;
+}
 .project-wrapper {
     width: 100%;
     padding: 0 0 60px 0;
