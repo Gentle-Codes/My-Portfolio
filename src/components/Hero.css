@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.1));
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) );
 }
 .hero-txt {
     color: #fff;
@@ -30,13 +30,14 @@
 @media (max-width: 768px) {
     .hero {
         width: 100%;
-        background: linear-gradient(to top, rgba(255, 255, 255, 0.1));
+        background: linear-gradient(to top, rgba(255, 255, 255, 0.1), #051540);
     }
     .hero-txt {
         width: 90%;
     }
     .hero-txt h1 {
         margin: 0 15px 20px 15px;
+        width: 95%;
     }
     .hero-txt p {
         margin: 0 12px 0 12px;
