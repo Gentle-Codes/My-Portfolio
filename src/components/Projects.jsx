@@ -10,7 +10,7 @@ export default function Projects () {
         <div className="project">
 
             <div className="project-card">
-                <img src="https://i.postimg.cc/SxQ3706r/Screenshot-2026-04-20-144638.png"
+                <img src="https://i.postimg.cc/ZRZTwV21/Screenshot-2026-05-10-235031.png"
                 alt="GENTLE SHOT IT"
                 />
                 <h4><a href="https://gentle-shot-it.vercel.app/">GENTLESHOTIT</a> </h4>
