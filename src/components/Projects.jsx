@@ -10,12 +10,12 @@ export default function Projects () {
         <div className="project">
 
             <div className="project-card">
-                <img src=""
+                <img src="https://i.postimg.cc/SxQ3706r/Screenshot-2026-04-20-144638.png"
                 alt="GENTLE SHOT IT"
                 />
                 <h4><a href="https://gentle-shot-it.vercel.app/">GENTLESHOTIT</a> </h4>
                 <p>GENTLE-SHOT-IT is a photography website i'm working on. <br/>
-                    Studios can use it showcase their work and take bookings and receive feedbacks.
+                    Studios can use it showcase their work and take bookings and receive feedbacks. Got the idea from EVERLINE
                     <strong>I still have a couple feature to add, also it's not responsive on mobile yet.</strong> 
                 </p>
             </div>
